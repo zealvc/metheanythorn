@@ -522,10 +522,11 @@ img, svg {
     text-decoration: none;
 }
 
-.hero-btn:hover {
+a:hover.hero-btn:hover {
     background: #5E6C84;
     border-color: #fff;
     color: #fff;
+    text-decoration: none;
 }
 
 .get-start-btn {
@@ -538,8 +539,10 @@ img, svg {
     text-decoration: none;
 }
 
-.get-start-btn:hover {
+a:hover.get-start-btn:hover {
+    color: #172B4D;
     background: #57D9A3;
+    text-decoration: none;
 }
 
 .a-title {
@@ -587,8 +590,9 @@ img, svg {
     padding: 0 10px;
 }
 
-.a-btn:hover {
+a:hover.a-btn:hover {
     background: #EBECF0;
+    text-decoration: none;
 }
 
 .b-title {
@@ -659,16 +663,17 @@ img, svg {
     margin-bottom: 24px;
 }
 
-.link-arrow,
 .link-arrow-icon {
     color: #0052CC;
 }
 
-.link-arrow {
+a {
+    color: #0052CC;
     text-decoration: none;
 }
 
-.link-arrow:hover {
+a:hover {
+    color: #0052CC;
     text-decoration: underline;
 }
 
