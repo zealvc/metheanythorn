@@ -1,64 +1,3 @@
-/*! CSS Used fontfaces */
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Black.woff) format("woff");font-weight:700;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Bold.woff) format("woff");font-weight:600;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Light.woff) format("woff");font-weight:300;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Regular.woff) format("woff");font-weight:400;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Semibold.woff) format("woff");font-weight:500;font-style:normal;}
-@font-face{font-family:'Charlie Text';src:url(https://bitbucket-marketing-cdn.atlassian.com/dam/fonts/charlie-text/Charlie_Text-Thin.woff) format("woff");font-weight:100;font-style:normal;}
 /*CSS Reset*/
 * {
     margin: 0;
@@ -70,7 +9,7 @@
 /*Common Style*/
 body {
     color: #091E42;
-    font-family:'Charlie Text',sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style:normal;
     background-color: #FFF;
     font-size: 16px;
@@ -149,7 +88,6 @@ img, svg {
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.04em;
-    font-family: 'Charlie Text',sans-serif;
 }
 
 .display-3 {
@@ -157,7 +95,6 @@ img, svg {
     font-weight: 500;
     line-height: 1.35;
     letter-spacing: -0.02em;
-    font-family: 'Charlie Text',sans-serif;
 }
 
 .display-2 {
@@ -165,7 +102,6 @@ img, svg {
     font-weight: 500;
     line-height: 48px;
     letter-spacing: normal;
-    font-family: 'Charlie Text',sans-serif;
 }
 
 .display-1 {
@@ -173,7 +109,6 @@ img, svg {
     font-weight: 500;
     line-height: 40px;
     letter-spacing: normal;
-    font-family: 'Charlie Text',sans-serif;
 }
 
 .heading {
@@ -181,7 +116,6 @@ img, svg {
     font-weight: 500;
     line-height: 32px;
     letter-spacing: normal;
-    font-family: 'Charlie Text',sans-serif;
 }
 
 .title {
@@ -189,7 +123,6 @@ img, svg {
     letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1;
-    font-family: 'Charlie Text',sans-serif;
 }
 
 .subheading {
