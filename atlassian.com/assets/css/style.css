@@ -6,11 +6,12 @@
     font-size: 100%;
     vertical-align: baseline;
 }
+
 /*Common Style*/
 body {
     color: #091E42;
     font-family: 'Work Sans', sans-serif;
-    font-style:normal;
+    font-style: normal;
     background-color: #FFF;
     font-size: 16px;
     height: 100%;
@@ -46,12 +47,23 @@ img, svg {
     width: 100vh;
 }
 
-.align-start {
+
+.align-start { /*Align item left*/
     float: left;
 }
 
-.align-end {
+.align-end { /*Align item right*/
     float: right;
+}
+
+.container {
+    height: auto;
+    background-color: #fff;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .flex-container {
@@ -60,10 +72,6 @@ img, svg {
 
 .max-width-1 {
     max-width: 900px;
-}
-
-.max-width-2 {
-    max-width: 1200px;
 }
 
 .flex-container .vertical-middle {
@@ -82,38 +90,42 @@ img, svg {
     flex-wrap: wrap;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /*Font Size*/
 .display-4 {
     font-size: 112px;
-    font-weight: 400;
+    font-weight: 800;
     line-height: 1;
     letter-spacing: -0.04em;
 }
 
 .display-3 {
     font-size: 56px;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 1.35;
     letter-spacing: -0.02em;
 }
 
 .display-2 {
     font-size: 45px;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 48px;
     letter-spacing: normal;
 }
 
 .display-1 {
     font-size: 34px;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 40px;
     letter-spacing: normal;
 }
 
 .heading {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 32px;
     letter-spacing: normal;
 }
@@ -121,7 +133,7 @@ img, svg {
 .title {
     font-size: 20px;
     letter-spacing: 0.02em;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 1;
 }
 
@@ -132,7 +144,7 @@ img, svg {
 
 .body-2 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .body-1 {
@@ -152,299 +164,389 @@ img, svg {
     margin-bottom: auto;
     margin-left: auto;
 }
+
 .my-auto {
     margin-top: auto;
     margin-bottom: auto;
 }
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
+
 .mt-auto {
     margin-top: auto;
 }
+
 .mr-auto {
     margin-right: auto;
 }
+
 .mb-auto {
     margin-bottom: auto;
 }
+
 .ml-auto {
     margin-left: auto;
 }
+
 .ma-0 {
     margin: 0 0;
 }
+
 .my-0 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .mx-0 {
     margin-left: 0;
     margin-right: 0;
 }
+
 .mt-0 {
     margin-top: 0;
 }
+
 .mr-0 {
     margin-right: 0;
 }
+
 .mb-0 {
     margin-bottom: 0;
 }
+
 .ml-0 {
     margin-left: 0;
 }
+
 .pa-0 {
     padding: 0 0;
 }
+
 .py-0 {
     padding-top: 0;
     padding-bottom: 0;
 }
+
 .px-0 {
     padding-left: 0;
     padding-right: 0;
 }
+
 .pt-0 {
     padding-top: 0;
 }
+
 .pr-0 {
     padding-right: 0;
 }
+
 .pb-0 {
     padding-bottom: 0;
 }
+
 .pl-0 {
     padding-left: 0;
 }
+
 .ma-1 {
     margin: 4px 4px;
 }
+
 .my-1 {
     margin-top: 4px;
     margin-bottom: 4px;
 }
+
 .mx-1 {
     margin-left: 4px;
     margin-right: 4px;
 }
+
 .mt-1 {
     margin-top: 4px;
 }
+
 .mr-1 {
     margin-right: 4px;
 }
+
 .mb-1 {
     margin-bottom: 4px;
 }
+
 .ml-1 {
     margin-left: 4px;
 }
+
 .pa-1 {
     padding: 4px 4px;
 }
+
 .py-1 {
     padding-top: 4px;
     padding-bottom: 4px;
 }
+
 .px-1 {
     padding-left: 4px;
     padding-right: 4px;
 }
+
 .pt-1 {
     padding-top: 4px;
 }
+
 .pr-1 {
     padding-right: 4px;
 }
+
 .pb-1 {
     padding-bottom: 4px;
 }
+
 .pl-1 {
     padding-left: 4px;
 }
+
 .ma-2 {
     margin: 8px 8px;
 }
+
 .my-2 {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 .mx-2 {
     margin-left: 8px;
     margin-right: 8px;
 }
+
 .mt-2 {
     margin-top: 8px;
 }
+
 .mr-2 {
     margin-right: 8px;
 }
+
 .mb-2 {
     margin-bottom: 8px;
 }
+
 .ml-2 {
     margin-left: 8px;
 }
+
 .pa-2 {
     padding: 8px 8px;
 }
+
 .py-2 {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
 .px-2 {
     padding-left: 8px;
     padding-right: 8px;
 }
+
 .pt-2 {
     padding-top: 8px;
 }
+
 .pr-2 {
     padding-right: 8px;
 }
+
 .pb-2 {
     padding-bottom: 8px;
 }
+
 .pl-2 {
     padding-left: 8px;
 }
+
 .ma-3 {
     margin: 16px 16px;
 }
+
 .my-3 {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
 .mx-3 {
     margin-left: 16px;
     margin-right: 16px;
 }
+
 .mt-3 {
     margin-top: 16px;
 }
+
 .mr-3 {
     margin-right: 16px;
 }
+
 .mb-3 {
     margin-bottom: 16px;
 }
+
 .ml-3 {
     margin-left: 16px;
 }
+
 .pa-3 {
     padding: 16px 16px;
 }
+
 .py-3 {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
 .px-3 {
     padding-left: 16px;
     padding-right: 16px;
 }
+
 .pt-3 {
     padding-top: 16px;
 }
+
 .pr-3 {
     padding-right: 16px;
 }
+
 .pb-3 {
     padding-bottom: 16px;
 }
+
 .pl-3 {
     padding-left: 16px;
 }
+
 .ma-4 {
     margin: 24px 24px;
 }
+
 .my-4 {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
 .mx-4 {
     margin-left: 24px;
     margin-right: 24px;
 }
+
 .mt-4 {
     margin-top: 24px;
 }
+
 .mr-4 {
     margin-right: 24px;
 }
+
 .mb-4 {
     margin-bottom: 24px;
 }
+
 .ml-4 {
     margin-left: 24px;
 }
+
 .pa-4 {
     padding: 24px 24px;
 }
+
 .py-4 {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
 .px-4 {
     padding-left: 24px;
     padding-right: 24px;
 }
+
 .pt-4 {
     padding-top: 24px;
 }
+
 .pr-4 {
     padding-right: 24px;
 }
+
 .pb-4 {
     padding-bottom: 24px;
 }
+
 .pl-4 {
     padding-left: 24px;
 }
+
 .ma-5 {
     margin: 48px 48px;
 }
+
 .my-5 {
     margin-top: 48px;
     margin-bottom: 48px;
 }
+
 .mx-5 {
     margin-left: 48px;
     margin-right: 48px;
 }
+
 .mt-5 {
     margin-top: 48px;
 }
+
 .mr-5 {
     margin-right: 48px;
 }
+
 .mb-5 {
     margin-bottom: 48px;
 }
+
 .ml-5 {
     margin-left: 48px;
 }
+
 .pa-5 {
     padding: 48px 48px;
 }
+
 .py-5 {
     padding-top: 48px;
     padding-bottom: 48px;
 }
+
 .px-5 {
     padding-left: 48px;
     padding-right: 48px;
 }
+
 .pt-5 {
     padding-top: 48px;
 }
+
 .pr-5 {
     padding-right: 48px;
 }
+
 .pb-5 {
     padding-bottom: 48px;
 }
+
 .pl-5 {
     padding-left: 48px;
 }
@@ -475,18 +577,15 @@ img, svg {
     vertical-align: text-bottom;
 }
 
-/*Home Hero Style*/
+/**
+* Home Hero Style
+*/
 .hero {
     background-color: #172B4D;
     width: 100%;
     padding: 145px 0;
 }
 
-.text-center {
-    text-align: center;
-}
-
-/*Hero Style*/
 .hero-info {
     width: 80%;
     margin-left: auto;
@@ -515,31 +614,32 @@ img, svg {
 .hero-btn {
     color: #fff;
     border: 1px solid #00C7E5;
-    font-weight: 500;
+    font-weight: 900;
     display: inline-block;
     border-radius: 3px;
     padding: 5px 16px;
     text-decoration: none;
 }
 
-a:hover.hero-btn:hover {
+a:hover.hero-btn {
     background: #5E6C84;
     border-color: #fff;
     color: #fff;
     text-decoration: none;
 }
 
+/*Get start block style*/
 .get-start-btn {
     color: #172B4D;
     background: #79F2C0;
-    font-weight: 500;
+    font-weight: 900;
     display: inline-block;
     border-radius: 3px;
-    padding: 10px 16px 10px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 
-a:hover.get-start-btn:hover {
+a:hover.get-start-btn {
     color: #172B4D;
     background: #57D9A3;
     text-decoration: none;
@@ -562,6 +662,7 @@ a:hover.get-start-btn:hover {
     padding: 16px;
     width: 25%;
 }
+
 .a-img > img {
     width: 100%;
 }
@@ -581,7 +682,7 @@ a:hover.get-start-btn:hover {
     color: #0052CC;
     border: 1px solid #0052CC;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 900;
     display: inline-block;
     border-radius: 3px;
     font-size: 14px;
@@ -607,17 +708,6 @@ a:hover.a-btn:hover {
     margin: 32px auto;
 }
 
-/*Container Style*/
-.container {
-    height: auto;
-    background-color: #fff;
-}
-
-.content {
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
 .card-block {
     width: 33.33333%;
     padding: 16px;
@@ -641,11 +731,30 @@ a:hover.a-btn:hover {
     text-transform: uppercase;
 }
 
+.card-shadow {
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.1);
+}
+
 .card {
-    height: 190px;
+    min-height: 190px;
     position: relative;
     margin-bottom: 60px;
     display: block;
+    overflow: hidden;
+}
+
+.card-media {
+    display: block;
+    overflow: hidden;
+}
+
+.card-media > img {
+    float: left;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
 }
 
 .card-title {
@@ -663,8 +772,18 @@ a:hover.a-btn:hover {
     margin-bottom: 24px;
 }
 
+.play-icon {
+    color: rgba(255,255,255,.9);;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .link-arrow-icon {
     color: #0052CC;
+    font-size: 12px;
 }
 
 a {
@@ -730,7 +849,10 @@ a:hover {
 @media (min-width: 0px) and (max-width: 539px) {
 
 }
-@media (min-width: 540px) and (max-width: 767px) {}
+
+@media (min-width: 540px) and (max-width: 767px) {
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .hero {
         background-image: url("../img/Summit2019-WACTakeover.svg");
@@ -739,6 +861,7 @@ a:hover {
         background-size: cover;
     }
 }
+
 @media (min-width: 1024px) and (max-width: 1439px) {
     .hero {
         background-image: url("../img/Summit2019-WACTakeover.svg");
@@ -747,7 +870,10 @@ a:hover {
         background-size: cover;
     }
 }
-@media (min-width: 768px) {}
+
+@media (min-width: 768px) {
+}
+
 @media (max-width: 768px) {
     .hero {
         background-image: url("../img/Summit2019-WACTakeover-MobileHero.png");
@@ -755,38 +881,49 @@ a:hover {
         background-repeat: no-repeat;
         background-size: 100% 75%;
     }
+
     .a-title {
         font-size: 24px;
         margin-bottom: 16px;
     }
+
     .a-img > img {
         width: 300px;
     }
+
     .a-img, .a-info {
         width: 100%;
     }
+
     .card {
         margin: 0 auto;
     }
+
     .card-block {
         width: 100%;
     }
+
     .card-block-img {
         width: 100%;
     }
+
     .block-2 {
         order: 2;
     }
+
     .block-3 {
         order: 3;
     }
+
     .block-4 {
         order: 4;
     }
+
     .block-5 {
         order: 6;
     }
 }
+
 @media (min-width: 1024px) {
     .hero-title {
         font-size: 48px;
@@ -794,6 +931,7 @@ a:hover {
         margin-bottom: 24px;
     }
 }
+
 @media (min-width: 1440px) {
     .hero {
         background-image: url("../img/Summit2019-WACTakeover.svg");
@@ -804,21 +942,38 @@ a:hover {
 }
 
 /*Hiding based on screen size*/
-@media (min-width: 0px) and (max-width:539px){
-    .hide-xs{display:none;}
+@media (min-width: 0px) and (max-width: 539px) {
+    .hide-xs {
+        display: none;
+    }
 }
-@media (min-width:540px) and (max-width:767px){
-    .hide-sm{display:none;}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .hide-sm {
+        display: none;
+    }
 }
-@media (min-width:768px) and (max-width:1023px){
-    .hide-md{display:none;}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hide-md {
+        display: none;
+    }
 }
-@media (min-width:1024px) and (max-width:1439px){
-    .hide-lg{display:none;}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .hide-lg {
+        display: none;
+    }
 }
-@media (min-width:1440px){
-    .hide-xl{display:none;}
+
+@media (min-width: 1440px) {
+    .hide-xl {
+        display: none;
+    }
 }
-@media  (min-width: 540px) {
-    .hide-sm-and-xl{display:none;}
+
+@media (min-width: 540px) {
+    .hide-sm-and-xl {
+        display: none;
+    }
 }
