@@ -7,7 +7,7 @@
     vertical-align: baseline;
 }
 
-/*Common Style*/
+/*Tag Style*/
 body {
     color: #091E42;
     font-family: 'Work Sans', sans-serif;
@@ -734,7 +734,7 @@ a:hover.a-btn:hover {
 .card-shadow {
     height: 500px;
     border-radius: 4px;
-    box-shadow: 1px 1px 6px rgba(0,0,0,.1);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, .1);
 }
 
 .card {
@@ -750,7 +750,7 @@ a:hover.a-btn:hover {
     overflow: hidden;
 }
 
-.card-media > img {
+.card-media > img, .card-media > a > img {
     float: left;
     width: 100%;
     height: 230px;
@@ -773,7 +773,7 @@ a:hover.a-btn:hover {
 }
 
 .play-icon {
-    color: rgba(255,255,255,.9);;
+    color: rgba(255, 255, 255, .9);;
     font-size: 70px;
     position: absolute;
     left: 50%;
@@ -847,34 +847,6 @@ a:hover {
    ========================================================================== */
 
 @media (min-width: 0px) and (max-width: 539px) {
-
-}
-
-@media (min-width: 540px) and (max-width: 767px) {
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .hero {
-        background-image: url("../img/Summit2019-WACTakeover.svg");
-        background-position: bottom center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1439px) {
-    .hero {
-        background-image: url("../img/Summit2019-WACTakeover.svg");
-        background-position: bottom center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 768px) {
-}
-
-@media (max-width: 768px) {
     .hero {
         background-image: url("../img/Summit2019-WACTakeover-MobileHero.png");
         background-position: bottom left;
@@ -922,6 +894,77 @@ a:hover {
     .block-5 {
         order: 6;
     }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .hero {
+        background-image: url("../img/Summit2019-WACTakeover-MobileHero.png");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: 100% 75%;
+    }
+
+    .a-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .a-img > img {
+        width: 300px;
+    }
+
+    .a-img, .a-info {
+        width: 100%;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card-block {
+        width: 100%;
+    }
+
+    .card-block-img {
+        width: 100%;
+    }
+
+    .block-2 {
+        order: 2;
+    }
+
+    .block-3 {
+        order: 3;
+    }
+
+    .block-4 {
+        order: 4;
+    }
+
+    .block-5 {
+        order: 6;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero {
+        background-image: url("../img/Summit2019-WACTakeover.svg");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .hero {
+        background-image: url("../img/Summit2019-WACTakeover.svg");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 768px) {
 }
 
 @media (min-width: 1024px) {
